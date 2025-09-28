@@ -15,7 +15,6 @@ export interface Field {
 }
 
 export interface FormProps {
-  id?: string;
   title: string;
   fields: Field[];
 }

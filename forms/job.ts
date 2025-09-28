@@ -39,7 +39,7 @@ export const ProfessionalForm: FormProps = {
       type: "text",
       placeholder: "Enter address",
       validation: {
-        required: "Address is required"
+        required: "Address is required",
       },
     },
     {

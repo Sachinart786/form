@@ -121,7 +121,7 @@ export const DynamicForm: React.FC<DynamicFormProps> = ({
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-      {title && <h2 className="text-lg font-bold">{title}</h2>}
+      {title && <p className="text-lg font-medium">{title}</p>}
 
       {fields.map((field) => (
         <div key={field.name}>

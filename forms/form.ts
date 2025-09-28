@@ -1,6 +1,6 @@
 import { FormProps } from "@/types/form";
+
 export const form: FormProps = {
-  // id: "user",
   title: "User Registration",
   fields: [
     {
